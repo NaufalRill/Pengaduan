@@ -1,0 +1,3 @@
+<?php
+$con=mysqli_connect("localhost","rpl1k3_23","Smkn1tgt","rpl1k3_23");
+?>

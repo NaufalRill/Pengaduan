@@ -1,0 +1,104 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+
+h2 {
+	font-family: Courier New, monospace;
+
+}
+
+label {
+ font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+border:2px solid black;
+margin:0;
+padding:0px;
+text-align:center;
+background-color: darkblue;
+}
+
+.container{
+    width: 80%;
+    height: 50%;
+    background: #E7E8E8;
+    margin:auto;
+    margin-top: 0px;
+    padding-bottom: 5px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/*navbar */
+
+#navbar {
+  overflow: hidden;
+  background-color: #38C72E;
+  text-align: center;
+}
+
+#navbar a {
+  float: left;
+  display:block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+button {   
+       background-color: #4CAF50;   
+       width: 50%;  
+        color: white;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: 5px solid white;   
+        cursor: pointer;   
+		font-family: 'Poppins', sans-serif;
+         }
+		 
+		 
+a:hover {
+  opacity: 0.7; 
+}
+
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=text], input[type=password], input[type=number], input[type=radio]{   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 4px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container1 {   
+        padding: 25px;   
+        background-color: lightblue;  
+    } 
+	
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+
+
